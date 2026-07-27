@@ -101,7 +101,7 @@ void USpiderLegIKComponent::CreateFootIKInfo()
 			
 			//footIKInfo.FootToMiddleOffset = FootMiddleJointOffset - FootOffset;
 			footIKInfo.FootMiddleOffset = FootMiddleJointOffset;
-			footIKInfo.FootMiddleLocation = GetWorldLocation(FootOffset);
+			footIKInfo.FootMiddleLocation = GetWorldLocation(FootMiddleJointOffset);
 			footIKInfo.MoveTime = 0;
 			
 			footIKInfo.GoupId = i;
